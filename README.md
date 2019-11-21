@@ -57,3 +57,7 @@ $ python3 manage.py migrate blog
 - para generar el script que se ejecuto en la bd
 
 $ python manage.py sqlmigrate blog 0001
+
+- creando super usuario de admin
+
+$ python manage.py createsuperuser

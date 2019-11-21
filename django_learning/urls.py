@@ -17,7 +17,6 @@ from django.contrib import admin
 from django.urls import path, include #para poder manejar urls de cada modulo toca añadir include
 
 urlpatterns = [
-    path('blog/', include('blog.urls')), #incluimos el path de nuestra url
     path('admin/', admin.site.urls),
-    
+    path('blog/', include('blog.urls')), #incluimos el path de nuestra url
 ]
