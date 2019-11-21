@@ -34,10 +34,10 @@ pip install Django
 $ django-admin startproject mysite
 
 
-- Crear migraciones django
+-Crear migraciones django
 
 $ python3 manage.py migrate
 
-- Crear un apps en django
+-Crear un apps en django
 
 $ python3 manage.py startapp nombre
