@@ -24,10 +24,10 @@ SECRET_KEY = 'x@u8k@9ye4&dn97a%conrfqmw@x_znhhl=@%e_r$96n@kmaveu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-# solo para la parte del desarrollo, si el debug esta en true nos manda errores de desarollo
+# solo para
 
 ALLOWED_HOSTS = []
-# ip o dominio donde queremos que django se ejecute
+
 
 # Application definition
 
@@ -38,11 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.staticfiles',
-    #insertor una nueva apps al proyecto de django
-    'blog'
+    'blog',
 ]
-# 
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -53,7 +51,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-# contiene la ruta del fichero que tiene las urls
 ROOT_URLCONF = 'django_learning.urls'
 
 TEMPLATES = [
@@ -77,7 +74,7 @@ WSGI_APPLICATION = 'django_learning.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-# crear las bases de datos
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',

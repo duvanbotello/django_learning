@@ -41,3 +41,7 @@ $ python3 manage.py migrate
 - Crear un apps en django
 
 $ python3 manage.py startapp nombre
+
+- Iniciar Servidor
+
+$ python3 manage.py runserver
