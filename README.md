@@ -27,3 +27,8 @@ $
 -Cómo instalar paquetes en un entorno virtual de Python
 
 pip install Django
+
+
+-Crear proyecto de django desde el entorno virtual
+
+$ django-admin startproject mysite
