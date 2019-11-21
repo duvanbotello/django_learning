@@ -35,4 +35,5 @@ $ django-admin startproject mysite
 
 
 - Iniciando Servidor de django desde el entorno virtual
+
 $ python3 manage.py runserver
