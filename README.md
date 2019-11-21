@@ -45,3 +45,15 @@ $ python3 manage.py startapp nombre
 - Iniciar Servidor
 
 $ python3 manage.py runserver
+
+- Para crear una nueva migracion y revisar si esta bien
+
+$ python3 manage.py makemigrations blog
+
+- para ejecutar una nueva migracion
+
+$ python3 manage.py migrate blog
+
+- para generar el script que se ejecuto en la bd
+
+$ python manage.py sqlmigrate blog 0001
