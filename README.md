@@ -32,3 +32,12 @@ pip install Django
 -Crear proyecto de django desde el entorno virtual
 
 $ django-admin startproject mysite
+
+
+- Crear migraciones django
+
+$ python3 manage.py migrate
+
+- Crear un apps en django
+
+$ python3 manage.py startapp nombre
