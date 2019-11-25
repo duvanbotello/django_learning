@@ -61,3 +61,10 @@ $ python manage.py sqlmigrate blog 0001
 - creando super usuario de admin
 
 $ python manage.py createsuperuser
+
+por si da error al installar pip install mysqlclient
+
+sudo apt-get install python3 python-dev python3-dev \
+     build-essential libssl-dev libffi-dev \
+     libxml2-dev libxslt1-dev zlib1g-dev \
+     python-pip
